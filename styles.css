@@ -1,0 +1,121 @@
+body{
+	font-size: 16px;
+	color:#000000;
+	font-family: 'Fresca', sans-serif;
+}
+#header-nav {
+  background-color: #A9A9A9;
+  border-radius: 0;
+  border:1px solid black;
+  padding-bottom: 25px;
+ }
+ .navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 {
+  font-family: 'Abril Fatface';
+  color: #2F4F4F;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #F0E68C;
+  margin:0px auto 0px -30px;
+  line-height: .75;
+  padding-bottom: 25px;
+
+}
+#nav-list {
+  margin-top: 10px;
+  background-color: #32CD32;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #8B008B;
+  color:white;
+}
+
+/.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -60px
+}
+
+h2{
+	text-align: center;
+	font-size: 1.8em;
+}
+h3{
+	text-align: center;
+	font-size: 1.5em;
+}
+#menu{
+	margin: 5px 21px 0 21px;
+	background-color: #F0E68C;
+}
+#item1{
+	padding-top: 15px;
+}
+#top{
+	text-align: center;
+}
+.item{
+	color:solid black;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .navbar-brand h1 {
+  	margin-left:30px;
+  }
+ }
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-brand h1 {
+  	margin-left:30px;
+  }
+ }
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+    margin-left: 25px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 6vw; /* 1vw = 1% of viewport width */
+  }
+ 
+ #menu{
+ 	margin:30px 25px 30px 25px;
+ }
+ 
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 15px;
+    padding-left:0px;
+    font-size: 12vw;
+  }
+  
+ 
+ .item{
+ 	margin:auto;
+ }
+ 
+}
